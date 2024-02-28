@@ -2,9 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function AppHeader() {
+export default function AppHeader() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" expand="lg" >
       <Container>
         <Navbar.Brand href="#home">Interior Design</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -24,4 +24,4 @@ function AppHeader() {
   );
 }
 
-export default AppHeader;
+

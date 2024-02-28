@@ -17,8 +17,9 @@ export default function AppHero() {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h2>First slide label</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veritatis placeat maxime! Autem id repellat expedita. Molestias quasi magni necessitatibus odio quas temporibus officia ut! Tenetur corporis aut perferendis cum?</p>
+              <a className='btn btn-primary' href="">Learn more <i class='fas fa-chevron-right'></i></a>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
@@ -28,8 +29,9 @@ export default function AppHero() {
               alt="Second slide"
             />
             <Carousel.Caption>
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h2>Second slide label</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam temporibus facilis animi maxime officia odio, minima perferendis? Impedit, neque nulla?</p>
+              <a className='btn btn-primary' href="">Learn more <i class='fas fa-chevron-right'></i></a>
             </Carousel.Caption>
           </Carousel.Item >
           <Carousel.Item interval={3000}>
@@ -39,10 +41,9 @@ export default function AppHero() {
               alt="Third slide"
             />
             <Carousel.Caption>
-              <h5>Third slide label</h5>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h2>Third slide label</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum recusandae aperiam eveniet, inventore deserunt voluptate eum. Vitae culpa corporis quae?</p>
+              <a className='btn btn-primary' href="">Learn more <i class='fas fa-chevron-right'></i></a>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

@@ -103,6 +103,7 @@ ul,
 }
 
 .container-fluid {
+  
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -383,7 +384,8 @@ textarea {
   right: 0;
   top: 0;
   z-index: 9999;
-  background: #fff;
+  background: #e0e0e0;
+  opacity: 0.85;
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.5s linear;
 }
@@ -464,7 +466,7 @@ textarea {
 }
 
 .block {
-  padding: 70px 0;
+  padding: 70px 10px;
   border-bottom: 1px solid #e6e6e6;
 }
 
@@ -502,6 +504,7 @@ textarea {
 
 .about-block .progress-block {
   margin: 0 0 25px;
+
 }
 
 .about-block .progress-block h4 {
@@ -1177,4 +1180,19 @@ textarea {
     font-size: 26px;
     margin: 0;
   }
+}
+.about-container {
+  display: flex;
+	flex-wrap: wrap;
+	row-gap: 24px;
+	margin: 0px -12px;
+}
+.about-image {
+  flex: 1 1 50%;
+  padding: 0px 12px;	
+  background: url("./assets/pexels-canva-studio-3153207.jpg") 50% 50%/cover no-repeat;
+}
+.about-content {
+  flex: 1 1 50%;
+  padding: 0px 12px;
 }
