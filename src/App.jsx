@@ -1,4 +1,4 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
@@ -8,10 +8,11 @@ import AppHero from './components/hero';
 import AppAbout from './components/about';
 import AppServices from './components/services';
 import AppWorks from './components/works';
+import AppTeam from './components/team'
 
 
 export default function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
     <>
@@ -23,6 +24,7 @@ export default function App() {
         <AppAbout />
         <AppServices />
         <AppWorks />
+        <AppTeam />
       </main>
     </>
   )
